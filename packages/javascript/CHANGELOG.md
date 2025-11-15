@@ -1,5 +1,17 @@
 # @livekit/protocol
 
+## 1.43.1
+
+### Patch Changes
+
+- add session features to room observability - [#1298](https://github.com/livekit/protocol/pull/1298) ([@paulwe](https://github.com/paulwe))
+
+- Add redacted field options to egress fields - [#1286](https://github.com/livekit/protocol/pull/1286) ([@biglittlebigben](https://github.com/biglittlebigben))
+
+- update psrpc - [#1303](https://github.com/livekit/protocol/pull/1303) ([@paulwe](https://github.com/paulwe))
+
+- add test for client middleware options - [#1306](https://github.com/livekit/protocol/pull/1306) ([@paulwe](https://github.com/paulwe))
+
 ## 1.43.0
 
 ### Minor Changes
