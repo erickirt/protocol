@@ -1,5 +1,11 @@
 # github.com/livekit/protocol
 
+## 1.43.1
+
+### Patch Changes
+
+- add option to only use IPv4 for webhooks - [#1296](https://github.com/livekit/protocol/pull/1296) ([@davidzhao](https://github.com/davidzhao))
+
 ## 1.43.0
 
 ### Patch Changes
