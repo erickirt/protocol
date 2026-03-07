@@ -1,5 +1,11 @@
 # @livekit/protocol
 
+## 1.45.1
+
+### Patch Changes
+
+- encode monotonic time in wall clock - [#1439](https://github.com/livekit/protocol/pull/1439) ([@paulwe](https://github.com/paulwe))
+
 ## 1.45.0
 
 ### Minor Changes
