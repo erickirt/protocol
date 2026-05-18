@@ -1,5 +1,19 @@
 # github.com/livekit/protocol
 
+## 1.46.0
+
+### Minor Changes
+
+- Adding ability to specify media timeout per CreateSIPParticipant request and per Dispatch Rule. - [#1534](https://github.com/livekit/protocol/pull/1534) ([@alexlivekit](https://github.com/alexlivekit))
+
+### Patch Changes
+
+- Adding a test for EvaluateDispatchRule - [#1555](https://github.com/livekit/protocol/pull/1555) ([@alexlivekit](https://github.com/alexlivekit))
+
+- Fix SIP trunk-level MediaEncryption being silently dropped on outbound and inbound calls. The early `req.Upgrade()` / `rule.Upgrade()` calls pinned `Media.Encryption` to the (legacy) request/rule field before the trunk's MediaEncryption was merged, causing INVITEs to omit SRTP when only the trunk had it configured. - [#1540](https://github.com/livekit/protocol/pull/1540) ([@hechen-eng](https://github.com/hechen-eng))
+
+- Add optional authentication realm to SIPInboundTrunk. - [#1558](https://github.com/livekit/protocol/pull/1558) ([@dennwc](https://github.com/dennwc))
+
 ## 1.45.8
 
 ### Patch Changes
