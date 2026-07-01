@@ -1,5 +1,11 @@
 # github.com/livekit/protocol
 
+## 1.48.3
+
+### Patch Changes
+
+- Relax SIP outbound validation to support carriers. - [#1611](https://github.com/livekit/protocol/pull/1611) ([@dennwc](https://github.com/dennwc))
+
 ## 1.48.2
 
 ### Patch Changes
