@@ -1,5 +1,11 @@
 # @livekit/protocol
 
+## 1.48.3
+
+### Patch Changes
+
+- add job id in MetricsRecordingHeader for chat log re-injection - [#1646](https://github.com/livekit/protocol/pull/1646) ([@chenghao-mou](https://github.com/chenghao-mou))
+
 ## 1.48.2
 
 ### Patch Changes
