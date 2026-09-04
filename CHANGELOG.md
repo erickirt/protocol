@@ -1,5 +1,17 @@
 # github.com/livekit/protocol
 
+## 1.51.1
+
+### Patch Changes
+
+- Add fuzz test for data track packet deserialization - [#1759](https://github.com/livekit/protocol/pull/1759) ([@ladvoc](https://github.com/ladvoc))
+
+- Move data track packet serialization from livekit package - [#1757](https://github.com/livekit/protocol/pull/1757) ([@ladvoc](https://github.com/ladvoc))
+
+- Change GRPC code mapping for SIP 480/486 - [#1766](https://github.com/livekit/protocol/pull/1766) ([@ChelseaBradbury](https://github.com/ChelseaBradbury))
+
+- sdp: harden SDPFragment.Unmarshal against out-of-range accesses - [#1767](https://github.com/livekit/protocol/pull/1767) ([@boks1971](https://github.com/boks1971))
+
 ## 1.51.0
 
 ### Minor Changes
